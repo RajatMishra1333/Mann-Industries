@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mann Industries - India's Leading Fastener Manufacturer</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Loading Screen -->
+    <div class="loader" id="loader">
+        <div class="loader-content">
+            <div class="loader-logo">Mann Industries</div>
+            <div class="loader-spinner"></div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container">
+            <a href="#hero" class="logo">Mann Industries</a>
+            <nav>
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#quality">Quality</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle" id="menu-toggle"><i class="fas fa-bars"></i></div>
+        </div>
+    </header>
+
+    <!-- Hero Carousel Section -->
+    <section id="hero" class="hero-carousel">
+        <div class="particles" id="particles"></div>
+        <div class="carousel-slide active" style="background-image: url('https://images.unsplash.com/photo-1594243943013-11a3b5025a66?q=80&w=2070');">
+            <div class="slide-content">
+                <h1>Precision Engineered </h1>
+                <p>Delivering unmatched strength and reliability for every industrial application across India.</p>
+                <a href="#products" class="cta-button">Explore Our Products</a>
+            </div>
+        </div>
+        <div class="carousel-slide" style="background-image: url('https://images.unsplash.com/photo-1617953141905-d2c7112c83c2?q=80&w=2070');">
+            <div class="slide-content">
+                <h1>Bulk & Retail Excellence</h1>
+                <p>From single pieces to large-scale orders, we deliver consistent quality with competitive pricing.</p>
+                <a href="#contact" class="cta-button">Get Custom Quote</a>
+            </div>
+        </div>
+        <div class="carousel-slide" style="background-image: url('https://images.unsplash.com/photo-1581092446327-9b52bd4a00bee?q=80&w=2070');">
+            <div class="slide-content">
+                <h1>Pan-India Delivery Network</h1>
+                <p>Connecting from our Ludhiana headquarters to every corner of India with reliable logistics.</p>
+                <a href="#contact" class="cta-button">Contact Us Today</a>
+            </div>
+        </div>
+        <div class="carousel-nav">
+            <div class="carousel-dot active" data-slide="0"></div>
+            <div class="carousel-dot" data-slide="1"></div>
+            <div class="carousel-dot" data-slide="2"></div>
+        </div>
+    </section>
+
+    <!-- Statistics Section -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item animate-on-scroll">
+                    <span class="stat-number" data-target="1">0</span>
+                    <div class="stat-label">Years of Excellence</div>
+                </div>
+                <div class="stat-item animate-on-scroll">
+                    <span class="stat-number" data-target="50000">0</span>
+                    <div class="stat-label">Products Delivered</div>
+                </div>
+                <div class="stat-item animate-on-scroll">
+                    <span class="stat-number" data-target="200">0</span>
+                    <div class="stat-label">Happy Clients</div>
+                </div>
+                <div class="stat-item animate-on-scroll">
+                    <span class="stat-number" data-target="99">0</span>
+                    <div class="stat-label">Quality Assurance %</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="section">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Our Premium Product Range</h2>
+            <p class="section-subtitle animate-on-scroll">We manufacture a comprehensive range of high-grade Mild Steel fasteners, engineered for superior durability and performance in demanding industrial applications.</p>
+            <div class="product-grid">
+                <div class="product-card animate-slide-left">
+                    <div class="product-image-container">
+                        <img src="https://i.imgur.com/WlQyYPA.jpg" alt="MS Hex Bolts">
+                        <div class="product-overlay">
+                            <span class="view-details">Premium Quality</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h4>MS Hex Bolts</h4>
+                        <p>High-tensile strength hex head bolts engineered for heavy-duty structural applications and industrial machinery.</p>
+                        <div class="product-features">
+                            <span class="feature-tag">High Tensile</span>
+                            <span class="feature-tag">Corrosion Resistant</span>
+                            <span class="feature-tag">All Sizes</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card animate-slide-right">
+                    <div class="product-image-container">
+                        <img src="https://i.imgur.com/T0bH03h.jpg" alt="MS Hex Nuts">
+                        <div class="product-overlay">
+                            <span class="view-details">Precision Threading</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h4>MS Hex Nuts</h4>
+                        <p>Precision-threaded hexagonal nuts ensuring optimal grip and secure fastening for critical applications.</p>
+                        <div class="product-features">
+                            <span class="feature-tag">Precision Cut</span>
+                            <span class="feature-tag">Durable</span>
+                            <span class="feature-tag">Custom Sizes</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card animate-slide-left">
+                    <div class="product-image-container">
+                        <img src="https://i.imgur.com/dKdnI8c.jpeg" alt="MS Plain Washers">
+                        <div class="product-overlay">
+                            <span class="view-details">Load Distribution</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h4>MS Plain Washers</h4>
+                        <p>Expertly crafted washers that distribute load evenly, preventing surface damage and ensuring long-lasting stability.</p>
+                        <div class="product-features">
+                            <span class="feature-tag">Even Load</span>
+                            <span class="feature-tag">Surface Protection</span>
+                            <span class="feature-tag">Various Grades</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card animate-slide-right">
+                    <div class="product-image-container">
+                        <img src="https://i.imgur.com/B9B1s6y.jpg" alt="MS Spring Washers">
+                        <div class="product-overlay">
+                            <span class="view-details">Anti-Vibration</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h4>MS Spring Washers</h4>
+                        <p>Advanced spring washers providing axial flexibility to prevent loosening caused by vibrations and thermal expansion.</p>
+                        <div class="product-features">
+                            <span class="feature-tag">Vibration Proof</span>
+                            <span class="feature-tag">Flexible</span>
+                            <span class="feature-tag">Long Lasting</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card animate-slide-left">
+                    <div class="product-image-container">
+                        <img src="https://i.imgur.com/yU4bNqD.jpg" alt="MS Carriage Bolts">
+                        <div class="product-overlay">
+                            <span class="view-details">Smooth Finish</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h4>MS Carriage Bolts</h4>
+                        <p>Features a smooth, rounded head design for secure, non-snagging finish in wood and metal applications.</p>
+                        <div class="product-features">
+                            <span class="feature-tag">Smooth Head</span>
+                            <span class="feature-tag">Multi-Use</span>
+                            <span class="feature-tag">Safe Design</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card animate-slide-right">
+                    <div class="product-image-container">
+                        <img src="https://i.imgur.com/ZkL7o6q.jpg" alt="Custom Fasteners">
+                        <div class="product-overlay">
+                            <span class="view-details">Custom Made</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h4>Specialty & Custom Fasteners</h4>
+                        <p>Bespoke manufacturing of specialized fasteners according to your precise drawings, specifications, and industry requirements.</p>
+                        <div class="product-features">
+                            <span class="feature-tag">Custom Design</span>
+                            <span class="feature-tag">Any Specification</span>
+                            <span class="feature-tag">Expert Crafted</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quality Assurance Section -->
+    <section id="quality" class="section">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Our Unwavering Commitment to Quality</h2>
+            <p class="section-subtitle animate-on-scroll">Excellence isn't just our goal—it's our standard. Every fastener that leaves our facility embodies our dedication to superior craftsmanship and reliability.</p>
+            <div class="quality-grid">
+                <div class="quality-item animate-on-scroll floating">
+                    <div class="icon"><i class="fas fa-microscope"></i></div>
+                    <h3>Precision Engineering</h3>
+                    <p>State-of-the-art CNC machinery and precision tools ensure every fastener meets exact dimensional tolerances and threading specifications.</p>
+                </div>
+                <div class="quality-item animate-on-scroll floating">
+                    <div class="icon"><i class="fas fa-shield-halved"></i></div>
+                    <h3>Premium Materials</h3>
+                    <p>We source only the highest grade Mild Steel from certified suppliers, ensuring maximum strength, durability, and corrosion resistance.</p>
+                </div>
+                <div class="quality-item animate-on-scroll floating">
+                    <div class="icon"><i class="fas fa-check-double"></i></div>
+                    <h3>Rigorous Testing</h3>
+                    <p>Comprehensive quality control processes including tensile strength testing, hardness verification, and dimensional accuracy checks on every batch.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="contact-wrapper animate-on-scroll">
+                <div class="contact-form">
+                    <h3>Send us Your Enquiry</h3>
+                    <form id="enquiry-form">
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Your Full Name *" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Your Email Address *" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" name="phone" placeholder="Your Phone Number">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="subject" placeholder="Subject *" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" placeholder="Please describe your requirements, quantities, specifications..." required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                        <div class="success-message" id="success-message">
+                            <i class="fas fa-check-circle"></i> Thank you! We'll contact you within 24 hours.
+                        </div>
+                    </form>
+                </div>
+                <div class="contact-details">
+                    <h3>Get in Touch</h3>
+                    <p>Ready to discuss your fastener requirements? Our expert team is here to provide personalized solutions.</p>
+                    <p>
+                        <span class="icon"><i class="fas fa-phone"></i></span>
+                        <a href="tel:+917710666601">+91 7710666601</a>
+                    </p>
+                    <p>
+                        <span class="icon"><i class="fas fa-envelope"></i></span>
+                        <a href="mailto:Mannindustries@outlook.com">Mannindustries@outlook.com</a>
+                    </p>
+                    <p>
+                        <span class="icon"><i class="fas fa-map-marker-alt"></i></span>
+                        <span>Ludhiana, Punjab, India<br><small>Serving customers across all Indian states</small></span>
+                    </p>
+                    <p>
+                        <span class="icon"><i class="fas fa-clock"></i></span>
+                        <span>Business Hours<br><small>Mon - Sat: 9:00 AM - 7:00 PM</small></span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>Mann Industries</h4>
+                    <p>Your most trusted manufacturing partner for premium industrial fasteners. We combine traditional craftsmanship with modern technology to deliver excellence in every product.</p>
+                    <p style="margin-top: 20px;">
+                        <strong>Quality • Reliability • Innovation</strong>
+                    </p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Navigation</h4>
+                    <ul>
+                        <li><a href="#hero">Home</a></li>
+                        <li><a href="#products">Our Products</a></li>
+                        <li><a href="#quality">Quality Standards</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Information</h4>
+                    <ul>
+                        <li><i class="fas fa-phone-alt"></i> +91 7710666601</li>
+                        <li><i class="fas fa-envelope"></i> Mannindustries@outlook.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Ludhiana, Punjab, India</li>
+                        <li><i class="fas fa-truck"></i> All India Delivery</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Mann Industries. All Rights Reserved. | Crafted with Excellence</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top"><i class="fas fa-rocket"></i></button>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
